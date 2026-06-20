@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Russel 💙</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+<style>
+
+
+body {
+
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-family:'Lexend', sans-serif;
+
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+
+    overflow-x:hidden;
+    padding:40px 0;
+
+}
+
+
+
+.card {
+
+    background:rgba(255,255,255,0.92);
+
+    width:80%;
+    max-width:600px;
+
+    padding:40px;
+
+    text-align:center;
+
+    border-radius:30px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,0.2);
+
+    animation:pop 1s ease;
+
+    position:relative;
+
+}
+
+
+
+h1 {
+
+    color:#0077cc;
+
+    font-size:45px;
+
+}
+
+
+
+p {
+
+    color:#005b96;
+
+    font-size:21px;
+
+    line-height:1.7;
+
+}
+
+
+
+.heart {
+
+    font-size:45px;
+
+    animation:bounce 1.5s infinite;
+
+}
+
+
+
+.cake {
+
+    font-size:50px;
+
+    animation:bounce 1.5s infinite;
+
+}
+
+
+
+button {
+
+
+    margin-top:25px;
+
+    padding:14px 30px;
+
+    border:none;
+
+    border-radius:25px;
+
+    background:#0077cc;
+
+    color:white;
+
+    font-family:'Lexend';
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+
+}
+
+
+
+button:hover {
+
+    transform:scale(1.08);
+
+    background:#005b96;
+
+}
+
+
+
+.hidden {
+
+    display:none;
+
+    margin-top:25px;
+
+    color:#004c80;
+
+    font-size:19px;
+
+    line-height:1.8;
+
+    animation:fade 1s;
+
+}
+
+
+
+
+
+
+@keyframes pop {
+
+
+from {
+
+transform:scale(0);
+
+}
+
+
+to {
+
+transform:scale(1);
+
+}
+
+
+}
+
+
+
+
+@keyframes bounce {
+
+
+50% {
+
+transform:translateY(-15px);
+
+}
+
+
+}
+
+
+
+
+@keyframes fade {
+
+
+from {
+
+opacity:0;
+
+}
+
+
+to {
+
+opacity:1;
+
+}
+
+
+}
+
+
+
+
+.bubble {
+
+
+position:absolute;
+
+bottom:-100px;
+
+background:rgba(255,255,255,.35);
+
+border-radius:50%;
+
+animation:float 8s infinite;
+
+
+}
+
+
+
+@keyframes float {
+
+
+from {
+
+transform:translateY(0);
+
+}
+
+
+to {
+
+transform:translateY(-120vh);
+
+}
+
+
+}
+
+
+
+
+.heartfloat {
+
+
+position:absolute;
+
+font-size:25px;
+
+animation:rise 6s infinite;
+
+
+}
+
+
+
+@keyframes rise {
+
+
+from {
+
+bottom:-20px;
+
+opacity:1;
+
+}
+
+
+to {
+
+bottom:110vh;
+
+opacity:0;
+
+}
+
+
+}
+
+
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="bubble" style="width:80px;height:80px;left:10%;"></div>
+
+<div class="bubble" style="width:50px;height:50px;left:70%;animation-delay:2s;"></div>
+
+<div class="bubble" style="width:100px;height:100px;left:40%;animation-delay:4s;"></div>
+
+
+<div class="heartfloat" style="left:20%;animation-delay:1s;">💙</div>
+
+<div class="heartfloat" style="left:80%;animation-delay:3s;">💙</div>
+
+
+
+<div class="card">
+
+
+<div class="cake">
+
+🎂
+
+</div>
+
+
+<div class="heart">
+
+💙
+
+</div>
+
+
+
+<h1>
+
+Happy Birthday Russel!
+
+</h1>
+
+
+
+
+<button onclick="showMessage()">
+
+Click me 💙
+
+</button>
+
+
+
+
+<div class="hidden" id="extra">
+
+
+Hello! Love love you always! Stay the awesome and beautiful 
+na tinotolerate ang kagaguhan ko. Hoping for more memories of our 
+friendship to come and I'm so grateful to have you as one 
+of my greatest friends. Love ya Tim to my Dick! 
+
+<br><br>
+
+Know that you can always come to me for everything
+and that I'm always praying and hoping for the best for you. 
+
+<br><br>
+
+Sana magkallove life na din tayo.....
+
+WHHAHAHAHAH
+
+but for now, ikaw na muna temporary ko BWHAHHA
+
+<br><br>
+
+Anyways, happiest birthday mi loves! 💙
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+<script>
+
+
+function showMessage(){
+
+document.getElementById("extra").style.display="block";
+
+
+}
+
+
+</script>
+
+
+
+</body>
+
+</html>
